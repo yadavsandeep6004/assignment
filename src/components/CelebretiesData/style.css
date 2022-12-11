@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordian {
+  width: 450px;
+  border: 2px solid gainsboro;
+  margin: 10px 0px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.celebrity-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.celebrity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.celebrity-name {
+  margin-left: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.celebrity-picture {
+  border-radius: 50%;
+}
+
+.celebrities-dob-gen-country {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.description {
+  margin-top: 10px;
+}
+
+.plus-minus {
+  font-size: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.edit {
+  margin: 0px 20px;
+}
+
+.InputNameFiled {
+  margin-left: 10px;
+  display: flex;
+}
+
+.InputNameFiled input {
+  width: 20%;
+  padding: 2px;
+}
+
+textarea {
+  width: 400px;
+  min-height: max-content;
+
+}
